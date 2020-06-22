@@ -11,4 +11,6 @@
 9. [Exercise 01](https://github.com/suraj-shakya/learning_python/blob/master/Basics/Exercise%2001.ipynb)
 10. [Sets](https://github.com/suraj-shakya/learning_python/blob/master/Basics/Sets.ipynb)
 11. [List Comprehension](https://github.com/suraj-shakya/learning_python/blob/master/Basics/List%20Comprehension.ipynb)
-12. [Functions](https://github.com/suraj-shakya/learning_python/blob/master/Basics/Functions.ipynb)
+12. [Functions](https://github.com/suraj-shakya/learning_python/blob/master/Basics/Functions.md)
+13. [Modules](https://github.com/suraj-shakya/learning_python/blob/master/Basics/Modules.md)
+14. [Exercise 02](https://github.com/suraj-shakya/learning_python/blob/master/Basics/Exercise%2002.md)
