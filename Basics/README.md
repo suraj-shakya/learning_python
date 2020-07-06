@@ -14,3 +14,5 @@
 12. [Functions](https://github.com/suraj-shakya/learning_python/blob/master/Basics/Functions.md)
 13. [Modules](https://github.com/suraj-shakya/learning_python/blob/master/Basics/Modules.md)
 14. [Exercise 02](https://github.com/suraj-shakya/learning_python/blob/master/Basics/Exercise%2002.md)
+15. [File Handling](https://github.com/suraj-shakya/learning_python/blob/master/Basics/File_Handling_In_Python.md)
+16. [Exception Handling](https://github.com/suraj-shakya/learning_python/blob/master/Basics/ExceptionHandling.md)
