@@ -149,8 +149,8 @@ There is an option for user-defined function too..
 
 Some of the types ...
 
-|  Exception | Description | 
-|   ---  |  ---  |  ---  | 
+| Exception | Description |
+|:---|:---|
 |  AssertionError | Raised when an assert statement fails | 
 |  AttributeError | Raised when attribute reference or assignment fails | 
 |  Exception | Base class for all exceptions | 
