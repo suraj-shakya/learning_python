@@ -1085,3 +1085,276 @@ Save the output in a file like below
 ```pip freeze > requirements.txt```  
 and the same packages can be installed in another environment like below  
 ```pip install -r requirements.txt```
+
+
+```python
+import requests
+help(requests)
+```
+
+    Help on package requests:
+    
+    NAME
+        requests
+    
+    DESCRIPTION
+        Requests HTTP Library
+        ~~~~~~~~~~~~~~~~~~~~~
+        
+        Requests is an HTTP library, written in Python, for human beings.
+        Basic GET usage:
+        
+           >>> import requests
+           >>> r = requests.get('https://www.python.org')
+           >>> r.status_code
+           200
+           >>> b'Python is a programming language' in r.content
+           True
+        
+        ... or POST:
+        
+           >>> payload = dict(key1='value1', key2='value2')
+           >>> r = requests.post('https://httpbin.org/post', data=payload)
+           >>> print(r.text)
+           {
+             ...
+             "form": {
+               "key1": "value1",
+               "key2": "value2"
+             },
+             ...
+           }
+        
+        The other HTTP methods are supported - see `requests.api`. Full documentation
+        is at <https://requests.readthedocs.io>.
+        
+        :copyright: (c) 2017 by Kenneth Reitz.
+        :license: Apache 2.0, see LICENSE for more details.
+    
+    PACKAGE CONTENTS
+        __version__
+        _internal_utils
+        adapters
+        api
+        auth
+        certs
+        compat
+        cookies
+        exceptions
+        help
+        hooks
+        models
+        packages
+        sessions
+        status_codes
+        structures
+        utils
+    
+    FUNCTIONS
+        check_compatibility(urllib3_version, chardet_version)
+    
+    DATA
+        __author_email__ = 'me@kennethreitz.org'
+        __build__ = 140288
+        __cake__ = '✨ 🍰 ✨'
+        __copyright__ = 'Copyright 2020 Kenneth Reitz'
+        __description__ = 'Python HTTP for Humans.'
+        __license__ = 'Apache 2.0'
+        __title__ = 'requests'
+        __url__ = 'https://requests.readthedocs.io'
+        codes = <lookup 'status_codes'>
+    
+    VERSION
+        2.24.0
+    
+    AUTHOR
+        Kenneth Reitz
+    
+    FILE
+        d:\python\wpy64-3820\python-3.8.2.amd64\lib\site-packages\requests\__init__.py
+    
+    
+    
+
+
+```python
+from requests import auth
+help(auth)
+```
+
+    Help on module requests.auth in requests:
+    
+    NAME
+        requests.auth
+    
+    DESCRIPTION
+        requests.auth
+        ~~~~~~~~~~~~~
+        
+        This module contains the authentication handlers for Requests.
+    
+    CLASSES
+        builtins.object
+            AuthBase
+                HTTPBasicAuth
+                    HTTPProxyAuth
+                HTTPDigestAuth
+        
+        class AuthBase(builtins.object)
+         |  Base class that all auth implementations derive from
+         |  
+         |  Methods defined here:
+         |  
+         |  __call__(self, r)
+         |      Call self as a function.
+         |  
+         |  ----------------------------------------------------------------------
+         |  Data descriptors defined here:
+         |  
+         |  __dict__
+         |      dictionary for instance variables (if defined)
+         |  
+         |  __weakref__
+         |      list of weak references to the object (if defined)
+        
+        class HTTPBasicAuth(AuthBase)
+         |  HTTPBasicAuth(username, password)
+         |  
+         |  Attaches HTTP Basic Authentication to the given Request object.
+         |  
+         |  Method resolution order:
+         |      HTTPBasicAuth
+         |      AuthBase
+         |      builtins.object
+         |  
+         |  Methods defined here:
+         |  
+         |  __call__(self, r)
+         |      Call self as a function.
+         |  
+         |  __eq__(self, other)
+         |      Return self==value.
+         |  
+         |  __init__(self, username, password)
+         |      Initialize self.  See help(type(self)) for accurate signature.
+         |  
+         |  __ne__(self, other)
+         |      Return self!=value.
+         |  
+         |  ----------------------------------------------------------------------
+         |  Data and other attributes defined here:
+         |  
+         |  __hash__ = None
+         |  
+         |  ----------------------------------------------------------------------
+         |  Data descriptors inherited from AuthBase:
+         |  
+         |  __dict__
+         |      dictionary for instance variables (if defined)
+         |  
+         |  __weakref__
+         |      list of weak references to the object (if defined)
+        
+        class HTTPDigestAuth(AuthBase)
+         |  HTTPDigestAuth(username, password)
+         |  
+         |  Attaches HTTP Digest Authentication to the given Request object.
+         |  
+         |  Method resolution order:
+         |      HTTPDigestAuth
+         |      AuthBase
+         |      builtins.object
+         |  
+         |  Methods defined here:
+         |  
+         |  __call__(self, r)
+         |      Call self as a function.
+         |  
+         |  __eq__(self, other)
+         |      Return self==value.
+         |  
+         |  __init__(self, username, password)
+         |      Initialize self.  See help(type(self)) for accurate signature.
+         |  
+         |  __ne__(self, other)
+         |      Return self!=value.
+         |  
+         |  build_digest_header(self, method, url)
+         |      :rtype: str
+         |  
+         |  handle_401(self, r, **kwargs)
+         |      Takes the given response and tries digest-auth, if needed.
+         |      
+         |      :rtype: requests.Response
+         |  
+         |  handle_redirect(self, r, **kwargs)
+         |      Reset num_401_calls counter on redirects.
+         |  
+         |  init_per_thread_state(self)
+         |  
+         |  ----------------------------------------------------------------------
+         |  Data and other attributes defined here:
+         |  
+         |  __hash__ = None
+         |  
+         |  ----------------------------------------------------------------------
+         |  Data descriptors inherited from AuthBase:
+         |  
+         |  __dict__
+         |      dictionary for instance variables (if defined)
+         |  
+         |  __weakref__
+         |      list of weak references to the object (if defined)
+        
+        class HTTPProxyAuth(HTTPBasicAuth)
+         |  HTTPProxyAuth(username, password)
+         |  
+         |  Attaches HTTP Proxy Authentication to a given Request object.
+         |  
+         |  Method resolution order:
+         |      HTTPProxyAuth
+         |      HTTPBasicAuth
+         |      AuthBase
+         |      builtins.object
+         |  
+         |  Methods defined here:
+         |  
+         |  __call__(self, r)
+         |      Call self as a function.
+         |  
+         |  ----------------------------------------------------------------------
+         |  Methods inherited from HTTPBasicAuth:
+         |  
+         |  __eq__(self, other)
+         |      Return self==value.
+         |  
+         |  __init__(self, username, password)
+         |      Initialize self.  See help(type(self)) for accurate signature.
+         |  
+         |  __ne__(self, other)
+         |      Return self!=value.
+         |  
+         |  ----------------------------------------------------------------------
+         |  Data and other attributes inherited from HTTPBasicAuth:
+         |  
+         |  __hash__ = None
+         |  
+         |  ----------------------------------------------------------------------
+         |  Data descriptors inherited from AuthBase:
+         |  
+         |  __dict__
+         |      dictionary for instance variables (if defined)
+         |  
+         |  __weakref__
+         |      list of weak references to the object (if defined)
+    
+    DATA
+        CONTENT_TYPE_FORM_URLENCODED = 'application/x-www-form-urlencoded'
+        CONTENT_TYPE_MULTI_PART = 'multipart/form-data'
+        basestring = (<class 'str'>, <class 'bytes'>)
+    
+    FILE
+        d:\python\wpy64-3820\python-3.8.2.amd64\lib\site-packages\requests\auth.py
+    
+    
+    

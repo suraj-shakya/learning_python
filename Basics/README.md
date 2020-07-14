@@ -16,3 +16,6 @@
 14. [Exercise 02](https://github.com/suraj-shakya/learning_python/blob/master/Basics/Exercise%2002.md)
 15. [File Handling](https://github.com/suraj-shakya/learning_python/blob/master/Basics/File_Handling_In_Python.md)
 16. [Exception Handling](https://github.com/suraj-shakya/learning_python/blob/master/Basics/ExceptionHandling.md)
+17. [Package Management in Python(PIP)](https://github.com/suraj-shakya/learning_python/blob/master/Basics/Package_Management_In_Python.md)
+18. [JSON in Python](https://github.com/suraj-shakya/learning_python/blob/master/Basics/JSON_in_python.md)
+19. [Dictionary Application](https://github.com/suraj-shakya/learning_python/blob/master/Basics/Building Dictionary Application.ipynb)
