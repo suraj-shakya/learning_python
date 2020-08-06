@@ -19,3 +19,4 @@
 17. [Package Management in Python(PIP)](https://github.com/suraj-shakya/learning_python/blob/master/Basics/Package_Management_In_Python.md)
 18. [JSON in Python](https://github.com/suraj-shakya/learning_python/blob/master/Basics/JSON_in_python.md)
 19. [Dictionary Application](https://github.com/suraj-shakya/learning_python/blob/master/Basics/Building%20Dictionary%20Application.ipynb)
+20. [Numpy](https://github.com/suraj-shakya/learning_python/blob/master/Basics/Numpy.ipynb)
