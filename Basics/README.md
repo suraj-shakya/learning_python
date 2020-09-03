@@ -20,3 +20,7 @@
 18. [JSON in Python](https://github.com/suraj-shakya/learning_python/blob/master/Basics/JSON_in_python.md)
 19. [Dictionary Application](https://github.com/suraj-shakya/learning_python/blob/master/Basics/Building%20Dictionary%20Application.ipynb)
 20. [Numpy](https://github.com/suraj-shakya/learning_python/blob/master/Basics/Numpy.ipynb)
+21. [Numpy & Image](https://github.com/suraj-shakya/learning_python/blob/master/Basics/Numpy%20and%20Image.ipynb)
+22. [Numpy & MatplotLib](https://github.com/suraj-shakya/learning_python/blob/master/Basics/Numpy%20and%20MatplotLib.ipynb)
+23. [Pandas](https://github.com/suraj-shakya/learning_python/blob/master/Basics/Pandas.ipynb)
+24. [Pandas - DataFrame](https://github.com/suraj-shakya/learning_python/blob/master/Basics/Pandas%20-%20DataFrame.ipynb)
