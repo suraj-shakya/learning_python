@@ -24,3 +24,4 @@
 22. [Numpy & MatplotLib](https://github.com/suraj-shakya/learning_python/blob/master/Basics/Numpy%20and%20MatplotLib.ipynb)
 23. [Pandas](https://github.com/suraj-shakya/learning_python/blob/master/Basics/Pandas.ipynb)
 24. [Pandas - DataFrame](https://github.com/suraj-shakya/learning_python/blob/master/Basics/Pandas%20-%20DataFrame.ipynb)
+25. [Pandas - ExcelWriter](https://github.com/suraj-shakya/learning_python/blob/master/Basics/Pandas%20-%20ExcelWriter.ipynb)
